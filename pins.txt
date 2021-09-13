@@ -1,0 +1,11 @@
+A0-A16	- needed: for PIA access only A8-A16 are necessary
+D0-D7	- needed
+E	- needed: clock
+R/W	- needed: data direction (from/to CPU)
+VMA	- needed: addresses PIAs when high
+NMI	- not needed: connected to GND via switch
+IRQ	- probably not needed
+RESET	- probably not needed
+BA	- not needed (bus available not connected)
+EXTAL	- not needed (4MHz)
+XTAL	- not needed (crystal unused)
